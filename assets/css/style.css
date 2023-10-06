@@ -496,7 +496,7 @@ nav {
 
 .features .content {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .features .block-img {
@@ -517,7 +517,6 @@ nav {
 
 .features .body-fea {
   width: 40.2%;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -525,7 +524,6 @@ nav {
 }
 
 .body-fea .title {
-  margin-bottom: 16px;
   color: #171100;
   font-family: Sen;
   font-size: 3.8rem;
@@ -535,14 +533,11 @@ nav {
 }
 
 .body-fea .desc {
+  margin-top: 16px;
   color: #5f5b53;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 175%;
-}
-
-.body-fea .desc:first-of-type {
-  margin-bottom: 16px;
 }
 
 .body-fea .btn {
@@ -552,4 +547,22 @@ nav {
   line-height: 50px;
   background-color: var(--primary-color);
   cursor: pointer;
+}
+
+/* Features-2nd */
+.features-2nd {
+  margin-top: -200px;
+}
+
+.features-2nd .content {
+  flex-direction: row-reverse;
+}
+
+.features-2nd img {
+  width: 40.2%;
+  height: 440px;
+}
+
+.features-2nd .body-fea {
+  width: 48.7%;
 }
